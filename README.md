@@ -81,3 +81,9 @@ com.khalil.latestnews
 - Articles cannot be edited or searched — just browsed and marked favorite.
 - No pagination implemented — it loads articles in one shot.
 - No user login or profile.
+
+- ## 📦 APK Download
+
+You can download the APK from the following link:  
+🔗 [Download Latest APK](https://drive.google.com/uc?export=download&id=1AbcDEFghIJklMNOPq)
+
