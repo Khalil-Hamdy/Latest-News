@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_15sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardUseCompatPadding="true"
+    android:clickable="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageNews"
+            android:src="@color/black"
+            app:riv_corner_radius_top_left="@dimen/_10sdp"
+            app:riv_corner_radius_top_right="@dimen/_10sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="The Rise of Global Tech: Trends Shaping Our Future "
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginHorizontal="@dimen/_7sdp"
+            app:layout_constraintTop_toBottomOf="@id/imageNews"
+            app:layout_constraintStart_toStartOf="@id/imageNews"
+            app:layout_constraintEnd_toEndOf="@id/imageNews"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/secoundry_color"
+            android:gravity="start"
+            android:maxLines="2"
+            android:text="3 days ago"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginHorizontal="@dimen/_7sdp"
+            app:layout_constraintTop_toBottomOf="@id/textTitle"
+            app:layout_constraintStart_toStartOf="@id/imageNews"
+            app:layout_constraintEnd_toEndOf="@id/imageNews"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/secoundry_color"
+            android:gravity="start"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="From AI breakthroughs to sustainable innovation, the tech world is evolving at a rapid pace. Explore how different regions across the globe are driving change in the digital era"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginHorizontal="@dimen/_7sdp"
+            app:layout_constraintTop_toBottomOf="@id/textDate"
+            app:layout_constraintStart_toStartOf="@id/imageNews"
+            app:layout_constraintEnd_toEndOf="@id/imageNews"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/roboto_semibold"
+            android:textColor="@color/secoundry_color"
+            android:gravity="start"
+            android:maxLines="4"
+            android:text="Favourite"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginHorizontal="@dimen/_12sdp"
+            app:layout_constraintTop_toBottomOf="@id/textDesc"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="@id/imageNews"
+            />
+
+        <ImageView
+            android:id="@+id/iconHeart"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/ic_favorite"
+            android:layout_marginHorizontal="@dimen/_7sdp"
+            app:layout_constraintTop_toTopOf="@id/textFav"
+            app:layout_constraintBottom_toBottomOf="@id/textFav"
+            app:layout_constraintEnd_toStartOf="@id/textFav"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>
