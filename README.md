@@ -7,32 +7,51 @@ A modern Android News Application built with Kotlin, MVVM, Clean Architecture, a
 ## 📁 Project Structure
 
 com.khalil.latestnews
+
 │
+
 ├── data
+
 │ ├── datasource
+
 │ │ ├── local (Room Database)
+
 │ │ └── remote (Retrofit API)
+
 │ ├── repository (Implements domain layer)
+
 │ └── model (DTOs, entities)
+
 │
+
 ├── domain
+
 │ ├── model (Pure business models)
+
 │ └── usecases (Business logic)
+
 | └── repository
+
 │
+
 ├── presentation
+
 │ ├── home
+
 │ ├── favorites
+
 │ ├── details
+
 │ └── splash
+
 │ └── profile
+
 │
+
 ├── di (Dependency injection - Hilt modules)
+
 └── utils (Constants, ApiState, etc.)
 
-yaml
-نسخ
-تح
 
 ## 🌟 Bonus Points Handled
 
