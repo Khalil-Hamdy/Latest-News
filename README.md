@@ -85,5 +85,5 @@ com.khalil.latestnews
 - ## 📦 APK Download
 
 You can download the APK from the following link:  
-🔗 [Download Latest APK](https://drive.google.com/uc?export=download&id=1AbcDEFghIJklMNOPq)
+🔗 [Download Latest APK](https://drive.google.com/drive/folders/1T8P0fwtCvhBgCB2CB2Gpjp-lr9KJCGWA?usp=sharing)
 
