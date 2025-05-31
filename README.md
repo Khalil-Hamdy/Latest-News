@@ -82,6 +82,11 @@ com.khalil.latestnews
 - No pagination implemented — it loads articles in one shot.
 - No user login or profile.
 
+## 🎥 Demo Videos
+
+- 🔗 https://drive.google.com/file/d/1CAewvnkz_034E37Ds4mUYoeLiUBy4drP/view?usp=sharing
+
+
 - ## 📦 APK Download
 
 You can download the APK from the following link:  
